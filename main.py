@@ -1,7 +1,6 @@
 from core.baseapp import BaseApp
-from view.view_book import import *
 
-class MainApp():
+class MainApp(BaseApp):
     def __init__(self):
         self.books = []
 
